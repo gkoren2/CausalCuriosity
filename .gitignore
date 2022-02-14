@@ -1,0 +1,8 @@
+# ignore files in tmp directory
+/tmp/
+
+# ignore causal_world.egg-info
+causal_world.egg-info/
+
+# ignore causal_world 
+/CausalWorld/

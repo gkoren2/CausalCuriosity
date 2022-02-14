@@ -3,7 +3,7 @@ Cross-entropy planner for pybullet-finger envs.
 Uses Uniform distributions instead of Gaussians.
 """
 # from envs.block_manipulation_env import BlockManipulationEnv, SCENARIOS
-from frameskip_wrapper import FrameSkip
+from cem.frameskip_wrapper import FrameSkip
 from scipy.spatial.distance import euclidean
 #import pybullet_utils.bullet_client as bc
 #import pybullet

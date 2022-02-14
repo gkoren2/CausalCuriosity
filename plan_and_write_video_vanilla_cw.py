@@ -14,7 +14,7 @@ from tqdm import tqdm
 
 from cem_planner_vanilla_cw import CEMPlanner
 # from envs.block_manipulation_env import BlockManipulationEnv, SCENARIOS
-from frameskip_wrapper import FrameSkip
+from cem.frameskip_wrapper import FrameSkip
 from plan_action_spaces import get_plan_action_space
 
 
