@@ -3,7 +3,7 @@ Cross-entropy planner
 Uses Uniform distributions instead of Gaussians.
 """
 
-from frameskip_wrapper import FrameSkip
+from cem.frameskip_wrapper import FrameSkip
 from scipy.spatial.distance import euclidean
 
 from tslearn.generators import random_walks
